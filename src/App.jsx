@@ -5,13 +5,13 @@ function App() {
         <section className="bg-Very-dark-blue-card-BG w- w-9/10 max-w-xs rounded-2xl p-6 drop-shadow-2xl">
           <div className="relative">
             <img
-              src="/public/images/image-equilibrium.jpg"
+              src="/nft-preview-card/images/image-equilibrium.jpg"
               alt="NFT preview"
               className="rounded-lg"
             />
 
             <div className="bg-Cyan/50 absolute inset-0 flex cursor-pointer items-center justify-center rounded-md opacity-0 transition-opacity duration-150 ease-in-out hover:opacity-100">
-              <img src="/public/images/icon-view.svg" alt="" />
+              <img src="/nft-preview-card/images/icon-view.svg" alt="" />
             </div>
           </div>
 
@@ -26,12 +26,18 @@ function App() {
 
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <img src="/public/images/icon-ethereum.svg" alt="Etherium" />
+                <img
+                  src="/nft-preview-card/images/icon-ethereum.svg"
+                  alt="Etherium"
+                />
                 <p className="text-Cyan font-semibold">0.041 ETH</p>
               </div>
 
               <div className="flex items-center gap-2">
-                <img src="/public/images/icon-clock.svg" alt="time left" />
+                <img
+                  src="/nft-preview-card/images/icon-clock.svg"
+                  alt="time left"
+                />
                 <p className="text-Soft-blue">3 days left</p>
               </div>
             </div>
@@ -40,7 +46,7 @@ function App() {
 
             <div className="flex items-center gap-4">
               <img
-                src="/public/images/image-avatar.png"
+                src="/nft-preview-card/images/image-avatar.png"
                 alt="Jules Wyvern Avatar"
                 className="ring-White size-8 rounded-full ring-1"
               />
